@@ -1,0 +1,19 @@
+使用 try-except 块处理可能发生的除零错误：
+python
+Copy code
+a = 10
+b = 0
+
+try:
+    result = a / b
+    print(result)
+except ZeroDivisionError:
+    print("除以零错误")
+导入并使用一个外部模块（例如 math 模块），计算正弦值：
+python
+Copy code
+import math
+
+angle = 45
+sin_value = math.sin(math.radians(angle))
+print(sin_value)
